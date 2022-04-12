@@ -1,0 +1,4 @@
+org\selenide\exemplos\pages\PaginaInicial.class
+org\selenide\exemplos\runner\Runner.class
+org\selenide\exemplos\pages\PaginaBase.class
+org\selenide\exemplos\steps\Cadastro.class

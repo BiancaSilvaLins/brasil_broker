@@ -1,0 +1,1 @@
+{"uuid":"4af7f9d7-5b45-4b68-9f3c-5604136a5772","name":"Esquema do Cenário: Campos Obrigatórios","children":["551cd37c-195e-4485-be94-890e00299811"],"befores":[],"afters":[{"name":"Cadastro.tearDown()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1648615037479,"stop":1648615037479}],"links":[],"start":1648615037472,"stop":1648615037479}

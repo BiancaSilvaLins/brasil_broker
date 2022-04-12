@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.selenide.exemplos.runner.Runner" time="1.173" tests="29" errors="0" skipped="29" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.3 dependency:copy-dependencies test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bblin"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.13"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.name" value="bblin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\bblin\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.3"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="C:\Users\bblin\IdeaProjects\brasil_broker"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\bblin\IdeaProjects\brasil_broker"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-11.0.13\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\bblin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Criar um cadastrado com sucesso para realizar login" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;que estou na tela inicial do sistema Brasil Brokers&quot; is undefined"/>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/bblin/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/bblin/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+]]></system-err>
+  </testcase>
+  <testcase name="Criar um cadastrado com sucesso para realizar login" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico na opção Minha Conta&quot; is undefined"/>
+  </testcase>
+  <testcase name="Criar um cadastrado com sucesso para realizar login" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico na opção criar sua conta&quot; is undefined"/>
+  </testcase>
+  <testcase name="Criar um cadastrado com sucesso para realizar login" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;preencho o campo Nome &quot;Bianca Lins&quot;&quot; is undefined"/>
+  </testcase>
+  <testcase name="Criar um cadastrado com sucesso para realizar login" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;preencho o campo Telefone &quot;61996856038&quot;&quot; is undefined"/>
+  </testcase>
+  <testcase name="Criar um cadastrado com sucesso para realizar login" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;preencho o campo Email &quot;bb.lins.14@gmail.com&quot;&quot; is undefined"/>
+  </testcase>
+  <testcase name="Criar um cadastrado com sucesso para realizar login" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;preencho o campo Senha &quot;teste@0101&quot;&quot; is undefined"/>
+  </testcase>
+  <testcase name="Criar um cadastrado com sucesso para realizar login" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;preencho o campo Confirmar Senha &quot;teste@0101&quot;&quot; is undefined"/>
+  </testcase>
+  <testcase name="Criar um cadastrado com sucesso para realizar login" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico para concordar com o termos e condições&quot; is undefined"/>
+  </testcase>
+  <testcase name="Criar um cadastrado com sucesso para realizar login" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico para concordar com as politicas de privacidade&quot; is undefined"/>
+  </testcase>
+  <testcase name="Criar um cadastrado com sucesso para realizar login" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico no botao criar conta&quot; is undefined"/>
+  </testcase>
+  <testcase name="Criar um cadastrado com sucesso para realizar login" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;o sistema finaliza o cadastro e emite a mensagem &quot;Solicitação de cadastro enviada com sucesso! Por favor, acesse seu e-mail e confirme a sua conta.&quot;&quot; is undefined"/>
+  </testcase>
+  <testcase name="Campos Obrigatórios" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;que estou na tela inicial do sistema Brasil Brokers&quot; is undefined"/>
+  </testcase>
+  <testcase name="Campos Obrigatórios" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico na opção Minha Conta&quot; is undefined"/>
+  </testcase>
+  <testcase name="Campos Obrigatórios" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico na opção criar sua conta e não preencho nenhum campo&quot; is undefined"/>
+  </testcase>
+  <testcase name="Campos Obrigatórios" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico no botao criar conta&quot; is undefined"/>
+  </testcase>
+  <testcase name="Campos Obrigatórios" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;o sistema não finaliza o cadastro e exibe na tela os campos que precisam ser preenchidos como obrigatório &quot;Obrigatório.&quot;&quot; is undefined"/>
+  </testcase>
+  <testcase name="Senha e confirmação de senha não conferem" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;que estou na tela inicial do sistema Brasil Brokers&quot; is undefined"/>
+  </testcase>
+  <testcase name="Senha e confirmação de senha não conferem" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico na opção Minha Conta&quot; is undefined"/>
+  </testcase>
+  <testcase name="Senha e confirmação de senha não conferem" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico na opção criar sua conta e não preencho nenhum campo&quot; is undefined"/>
+  </testcase>
+  <testcase name="Senha e confirmação de senha não conferem" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;preencho o campo Nome &quot;Bianca Lins&quot;&quot; is undefined"/>
+  </testcase>
+  <testcase name="Senha e confirmação de senha não conferem" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;preencho o campo Telefone &quot;61996856038&quot;&quot; is undefined"/>
+  </testcase>
+  <testcase name="Senha e confirmação de senha não conferem" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;preencho o campo Email &quot;bb.lins.14@gmail.com&quot;&quot; is undefined"/>
+  </testcase>
+  <testcase name="Senha e confirmação de senha não conferem" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;preencho o campo Senha &quot;teste@0101&quot;&quot; is undefined"/>
+  </testcase>
+  <testcase name="Senha e confirmação de senha não conferem" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;preencho o campo Confirmar Senha &quot;teste@0102&quot;&quot; is undefined"/>
+  </testcase>
+  <testcase name="Senha e confirmação de senha não conferem" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico para concordar com o termos e condições&quot; is undefined"/>
+  </testcase>
+  <testcase name="Senha e confirmação de senha não conferem" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico para concordar com as politicas de privacidade&quot; is undefined"/>
+  </testcase>
+  <testcase name="Senha e confirmação de senha não conferem" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;clico no botao criar conta&quot; is undefined"/>
+  </testcase>
+  <testcase name="Senha e confirmação de senha não conferem" classname="Realizar cadastro" time="0">
+    <skipped message="The step &quot;o sistema não finaliza o cadastro e emite a mensagem de erro &quot;Ops... as senhas não conferem.&quot;&quot; is undefined"/>
+  </testcase>
+</testsuite>

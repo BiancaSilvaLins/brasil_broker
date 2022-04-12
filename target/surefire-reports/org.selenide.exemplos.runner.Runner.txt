@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.selenide.exemplos.runner.Runner
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 29, Time elapsed: 1.173 s - in org.selenide.exemplos.runner.Runner
